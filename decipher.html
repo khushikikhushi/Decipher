@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Decipher - Redefining Students Inside and Out</title>
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0; padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f2eddc;
+      color: #222;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    header {
+      background-color: #293960;
+      padding: 25px 20px;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-weight: 700;
+      font-size: 5rem;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
+      color: #f2eddc;
+    }
+    header p {
+      font-weight: 400;
+      font-style: italic;
+      font-size: 2rem;
+      color: #f2eddc;
+    }
+    main {
+      flex-grow: 1;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    section h2 {
+      color: #293960;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #293960;
+      padding-bottom: 5px;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+      color: #444;
+    }
+    a {
+      color: #293960;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      color: #555;
+    }
+    .owners, .volunteers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .owner-card, .volunteer-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      flex: 1 1 180px;
+      min-width: 180px;
+      color: #333;
+      font-size: 0.95rem;
+      line-height: 1.3;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      max-width: 400px;
+    }
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+    }
+    button {
+      background-color: #293960;
+      color: #f2eddc;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #1f2a47;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 20px;
+      background: #e0e7ff;
+      font-size: 0.9rem;
+      color: #333;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 3.5rem;
+      }
+      header p {
+        font-size: 1.4rem;
+      }
+      main {
+        margin: 20px 10px;
+      }
+      .owner-card, .volunteer-card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Decipher</h1>
+    <p>Redefining students inside and out</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Decipher</h2>
+      <p>
+        Decipher is a student-led initiative dedicated to empowering students to better understand their inner selves, enabling them to thrive outside the classroom. We provide resources, guidance, and a supportive community for mental wellness and academic success.
+      </p>
+      <br />
+      <p>
+        Our mission is to help you decode the stress and pressures of student life—to truly "decipher" the inside so the outside shines brighter.
+      </p>
+      <br /><br />
+      <p style="font-weight: 700; font-size: 1.2rem;">
+        Visit our Linktree for more info: <a href="https://linktr.ee/decipher.jpg" target="_blank">https://linktr.ee/decipher.jpg</a>
+      </p>
+    </section>
+
+    <section id="owners">
+      <h2>Owners</h2>
+      <div class="owners">
+        <div class="owner-card">
+          <strong>Khushi Rai</strong><br />
+          Co-Founder & Volunteer Coordinator<br />
+          Dedicated to creating supportive communities for students.
+        </div>
+        <div class="owner-card">
+          <strong>Shahiq Saleem</strong><br />
+          Founder & Lead Coordinator<br />
+          Passionate about mental health awareness and student empowerment.
+        </div>
+      </div>
+    </section>
+
+    <section id="volunteers">
+      <h2>Our Volunteers</h2>
+      <div class="volunteers">
+        <div class="volunteer-card">
+          <strong>Volunteer 1</strong><br />
+          Role or Contribution<br />
+          Brief description.
+        </div>
+        <div class="volunteer-card">
+          <strong>Volunteer 2</strong><br />
+          Role or Contribution<br />
+          Brief description.
+        </div>
+        <div class="volunteer-card">
+          <strong>Volunteer 3</strong><br />
+          Role or Contribution<br />
+          Brief description.
+        </div>
+        <div class="volunteer-card">
+          <strong>Volunteer 4</strong><br />
+          Role or Contribution<br />
+          Brief description.
+        </div>
+        <div class="volunteer-card">
+          <strong>Volunteer 5</strong><br />
+          Role or Contribution<br />
+          Brief description.
+        </div>
+        <div class="volunteer-card">
+          <strong>Volunteer 6</strong><br />
+          Role or Contribution<br />
+          Brief description.
+        </div>
+        <div class="volunteer-card">
+          <strong>Volunteer 7</strong><br />
+          Role or Contribution<br />
+          Brief description.
+        </div>
+        <div class="volunteer-card">
+          <strong>Volunteer 8</strong><br />
+          Role or Contribution<br />
+          Brief description.
+        </div>
+        <div class="volunteer-card">
+          <strong>Volunteer 9</strong><br />
+          Role or Contribution<br />
+          Brief description.
+        </div>
+        <div class="volunteer-card">
+          <strong>Volunteer 10</strong><br />
+          Role or Contribution<br />
+          Brief description.
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form onsubmit="alert('Thanks for subscribing!'); return false;">
+        <input type="email" placeholder="Your email address" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:deciphercommunity@gmail.com">deciphercommunity@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/decipher.jpg" target="_blank">@decipher.jpg</a></p>
+      <p>Feel free to reach out for collaborations, volunteering, or any questions.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Decipher Initiative. All rights reserved.
+  </footer>
+</body>
+</html>
